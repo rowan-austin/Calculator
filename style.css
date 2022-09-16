@@ -1,0 +1,40 @@
+* {
+    box-sizing: border-box;
+    color: #333;
+}
+
+body {
+    background-color: #38393d;
+    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.calculator-wrapper {
+    margin: auto;
+    max-width: 400px;
+}
+
+.number-buttons {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.button {
+    background-color: grey;
+    colour: white;
+    width: calc(33% - 15px);
+    height: 100px;
+    border-radius: 50%;
+    font-size: 24px;
+    margin: 7.5px;
+}
+
+.operator {
+    background-color: orange;
+}
+
+.screen {
+    width: 100%;
+    height: 100px;
+    background-color: #aaaaaa;
+    border: 3px solid #fff;
+}
